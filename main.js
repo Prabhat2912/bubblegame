@@ -21,7 +21,7 @@ function runTimer() {
     } else {
       clearInterval(timerInt);
       running = false;
-      bubbles.textContent = `Game Over
+      bubbles.textContent = `Game Over!,
         Your Score is ${score}`;
     }
   }, 1000);
